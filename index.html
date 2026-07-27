@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Di Yan · Financial Economics · University of Groningen</title>
+<meta name="description" content="Di Yan is a PhD candidate in Financial Economics at the University of Groningen. Research on state-owned enterprises, spillover effects under imperfect competition, and international M&A, using evidence from Chinese financial markets.">
+<meta property="og:title" content="Di Yan · Financial Economics · University of Groningen">
+<meta property="og:description" content="PhD candidate in Financial Economics at the University of Groningen. Research on state-owned enterprises, spillover effects, and international M&A.">
+<meta property="og:image" content="https://yandi-finecon.github.io/files/profile_shifted.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yandi-finecon.github.io/">
+<link rel="canonical" href="https://yandi-finecon.github.io/">
+<meta name="robots" content="index, follow">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Di Yan · Financial Economics · University of Groningen">
+<meta name="twitter:description" content="PhD candidate in Financial Economics at the University of Groningen. Research on state-owned enterprises, spillover effects, and international M&A.">
+<meta name="twitter:image" content="https://yandi-finecon.github.io/files/profile_shifted.jpg">
+<script>
+(function () {
+  try {
+    if (localStorage.getItem('site-lang') === 'zh') {
+      document.documentElement.setAttribute('data-lang', 'zh');
+    }
+  } catch (e) {}
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Di Yan",
+  "alternateName": "闫迪",
+  "url": "https://yandi-finecon.github.io/",
+  "image": "https://yandi-finecon.github.io/files/profile_shifted.jpg",
+  "jobTitle": "PhD Candidate in Financial Economics",
+  "email": "mailto:d.yan@rug.nl",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Groningen",
+    "department": "Faculty of Economics and Business"
+  },
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "KU Leuven"},
+    {"@type": "CollegeOrUniversity", "name": "Murray State University"}
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/di-yan-927536227/",
+    "https://scholar.google.com/citations?user=q5QaHA8AAAAJ&hl=en&oi=ao",
+    "https://orcid.org/0009-0002-1994-686X"
+  ]
+}
+</script>
+<style>
+  :root {
+    --text: #1a1a1a;
+    --muted: #595959;
+    --accent: #7a1f1f;
+    --rule: #d9d9d9;
+    --bg: #fdfdfc;
+    --chip-bg: #f6f1ee;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  html[data-lang="zh"] .i18n-en { display: none; }
+  html:not([data-lang="zh"]) .i18n-zh { display: none; }
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.65;
+    font-size: 17px;
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--rule);
+    padding: 0.7rem 0;
+    font-size: 0.92rem;
+    z-index: 10;
+  }
+  nav .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.4rem 1.5rem;
+    padding-bottom: 0;
+  }
+  .nav-links { display: flex; flex-wrap: wrap; gap: 0 1.5rem; }
+  nav a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  nav a:hover { color: var(--accent); }
+  a { color: var(--accent); }
+  a:hover { text-decoration: underline; }
+
+  .lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+  }
+  .lang-btn {
+    display: inline-flex;
+    padding: 2px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 3px;
+    line-height: 0;
+    opacity: 0.55;
+    filter: grayscale(25%);
+    transition: opacity 0.15s ease, filter 0.15s ease;
+  }
+  .lang-btn:hover { opacity: 0.9; filter: grayscale(0%); }
+  .lang-btn.active {
+    opacity: 1;
+    filter: none;
+    box-shadow: 0 0 0 2px var(--accent);
+  }
+  .lang-btn svg { display: block; border-radius: 2px; }
+
+  header {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-top: 3rem;
+  }
+  .header-text { flex: 1; }
+  header .kicker {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.78rem;
+    color: var(--accent);
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 0.6rem;
+  }
+  header h1 {
+    font-size: 2.3rem;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+  }
+  header h1 {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  header h1 .cn-name {
+    font-size: 2rem;
+    color: var(--muted);
+    margin-left: calc(0.5rem + 11px);
+    line-height: 1;
+    position: relative;
+    top: -0.12em;
+  }
+  header .subtitle {
+    color: var(--muted);
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+  .quick-links {
+    margin-top: 1.1rem;
+    font-size: 0.95rem;
+  }
+  .quick-links a { margin-right: 0.4rem; }
+  .quick-links span.sep { color: var(--rule); margin-right: 0.4rem; }
+  .interests {
+    margin-top: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+  .interests li {
+    list-style: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.76rem;
+    letter-spacing: 0.02em;
+    color: var(--accent);
+    background: var(--chip-bg);
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 0.25rem 0.75rem;
+  }
+  .photo {
+    width: 150px;
+    height: 212px;
+    object-fit: cover;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+
+  /* hero band: full-bleed dark banner behind header + highlights */
+  .hero {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    padding: 2.4rem 0 2rem;
+    background-color: #172038;
+    background-image: linear-gradient(120deg, #16213b 0%, #212f4e 55%, #2e2440 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .hero .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .hero header {
+    margin-top: 0;
+  }
+  .hero .kicker,
+  .hero h1,
+  .hero .subtitle,
+  .hero .quick-links,
+  .hero .quick-links a,
+  .hero .interests li,
+  .hero .highlights li {
+    color: #f3f1ec;
+  }
+  .hero .kicker { color: #e7b4a8; }
+  .hero h1 .cn-name { color: #cfd3de; }
+  .hero .subtitle { color: #d7d9e2; }
+  .hero .quick-links a { color: #f3f1ec; text-decoration: underline; text-underline-offset: 2px; }
+  .hero .quick-links span.sep { color: rgba(243,241,236,0.35); }
+  .hero .interests li {
+    color: #f3f1ec;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.22);
+  }
+  .hero .highlights li {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.22);
+  }
+  .hero .highlights li em { color: #f3f1ec; }
+  .hero .photo {
+    border: 2px solid rgba(255,255,255,0.7);
+  }
+
+  /* highlight strip */
+  .highlights {
+    margin-top: 2.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .highlights li {
+    list-style: none;
+    background: var(--chip-bg);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.86rem;
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--text);
+    line-height: 1.35;
+  }
+
+  section { margin-top: 3.4rem; }
+  .section-number {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+  }
+  h2 {
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.4rem;
+    margin: 0.3rem 0 1.1rem;
+  }
+  p + p { margin-top: 0.9rem; }
+  section p, .item .abstract { text-align: justify; hyphens: auto; }
+  .item { margin-bottom: 1.4rem; }
+  .item:last-child { margin-bottom: 0; }
+  .item .title { font-weight: bold; }
+  .item .meta {
+    color: var(--muted);
+    font-size: 0.95rem;
+    font-style: italic;
+  }
+  .item .note { font-size: 0.98rem; margin-top: 0.15rem; }
+  .item .abstract-label {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-top: 0.9rem;
+  }
+  .item .abstract {
+    font-size: 0.95rem;
+    margin-top: 0.3rem;
+  }
+  ul.plain { list-style: none; }
+  ul.plain li { margin-bottom: 0.45rem; }
+  ul.pres-list { list-style: none; }
+  ul.pres-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  ul.pres-list li:last-child { border-bottom: none; }
+  ul.pres-list .pres-name { flex: 1; }
+  ul.pres-list .pres-meta {
+    color: var(--muted);
+    font-size: 0.92rem;
+    font-style: italic;
+    text-align: right;
+    white-space: nowrap;
+  }
+  @media (max-width: 560px) {
+    ul.pres-list li { flex-direction: column; gap: 0.15rem; }
+    ul.pres-list .pres-meta { text-align: left; white-space: normal; }
+  }
+  .contact-line { margin-bottom: 0.4rem; }
+  .contact-links { margin-top: 1rem; font-size: 0.95rem; }
+  .contact-links a { margin-right: 1rem; }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+  @media (max-width: 560px) {
+    body { font-size: 16px; }
+    nav .container { gap: 0 1rem; }
+    header { flex-direction: column-reverse; gap: 1.2rem; }
+    .photo { width: 130px; height: 184px; }
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="container">
+    <div class="nav-links">
+      <a href="#top"><span class="i18n-en">Home</span><span class="i18n-zh" lang="zh">首页</span></a>
+      <a href="#profile"><span class="i18n-en">Profile</span><span class="i18n-zh" lang="zh">简介</span></a>
+      <a href="#research"><span class="i18n-en">Research</span><span class="i18n-zh" lang="zh">研究</span></a>
+      <a href="#presentations"><span class="i18n-en">Presentations</span><span class="i18n-zh" lang="zh">学术报告</span></a>
+      <a href="#service"><span class="i18n-en">Service</span><span class="i18n-zh" lang="zh">学术服务</span></a>
+      <a href="#cv"><span class="i18n-en">CV</span><span class="i18n-zh" lang="zh">简历</span></a>
+      <a href="#contact"><span class="i18n-en">Contact</span><span class="i18n-zh" lang="zh">联系方式</span></a>
+    </div>
+    <div class="lang-switch">
+      <button type="button" class="lang-btn" data-lang-btn="en" aria-label="Switch to English" aria-pressed="true">
+        <svg viewBox="0 0 24 16" width="22" height="15" aria-hidden="true">
+          <rect width="24" height="16" fill="#fff"/>
+          <g fill="#B22234">
+            <rect y="0" width="24" height="1.6"/>
+            <rect y="3.2" width="24" height="1.6"/>
+            <rect y="6.4" width="24" height="1.6"/>
+            <rect y="9.6" width="24" height="1.6"/>
+            <rect y="12.8" width="24" height="1.6"/>
+          </g>
+          <rect width="10" height="8.8" fill="#3C3B6E"/>
+        </svg>
+      </button>
+      <button type="button" class="lang-btn" data-lang-btn="zh" aria-label="切换为中文" aria-pressed="false">
+        <svg viewBox="0 0 24 16" width="22" height="15" aria-hidden="true">
+          <rect width="24" height="16" fill="#DE2910"/>
+          <text x="2.4" y="7.6" font-size="6.5" fill="#FFDE00">&#9733;</text>
+          <text x="8.6" y="3.6" font-size="2.6" fill="#FFDE00">&#9733;</text>
+          <text x="10.2" y="6.2" font-size="2.6" fill="#FFDE00">&#9733;</text>
+          <text x="10.2" y="9.2" font-size="2.6" fill="#FFDE00">&#9733;</text>
+          <text x="8.6" y="11.8" font-size="2.6" fill="#FFDE00">&#9733;</text>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="hero" id="top">
+  <div class="container">
+  <header>
+    <div class="header-text">
+      <div class="kicker i18n-en">Financial Economics</div>
+      <div class="kicker i18n-zh" lang="zh">金融经济学</div>
+      <h1>Di Yan <span class="cn-name" lang="zh">闫迪</span></h1>
+      <p class="subtitle i18n-en">PhD Candidate in Financial Economics · University of Groningen<br>
+      Visiting PhD Researcher, Fudan University (FISF) (Oct 2026 – Jan 2027)</p>
+      <p class="subtitle i18n-zh" lang="zh">格罗宁根大学金融经济学博士生<br>
+      复旦大学（FISF）访问博士研究生（2026年10月–2027年1月）</p>
+      <ul class="interests">
+        <li class="i18n-en">Corporate Finance</li>
+        <li class="i18n-zh" lang="zh">公司金融</li>
+        <li class="i18n-en">State-Owned Enterprises</li>
+        <li class="i18n-zh" lang="zh">国有企业</li>
+        <li class="i18n-en">International Business</li>
+        <li class="i18n-zh" lang="zh">国际商务</li>
+        <li class="i18n-en">Spillover Effects</li>
+        <li class="i18n-zh" lang="zh">溢出效应</li>
+        <li class="i18n-en">M&amp;A</li>
+        <li class="i18n-zh" lang="zh">并购</li>
+      </ul>
+      <p class="quick-links">
+        <a href="mailto:d.yan@rug.nl">d.yan@rug.nl</a> <span class="sep">·</span>
+        <span class="i18n-en">WeChat: dyanracer</span><span class="i18n-zh" lang="zh">微信：dyanracer</span> <span class="sep">·</span>
+        <a href="files/CV_Di_Yan.pdf"><span class="i18n-en">CV</span><span class="i18n-zh" lang="zh">简历</span></a> <span class="sep">·</span>
+        <a href="https://www.linkedin.com/in/di-yan-927536227/">LinkedIn</a> <span class="sep">·</span>
+        <a href="https://scholar.google.com/citations?user=q5QaHA8AAAAJ&hl=en&oi=ao">Google Scholar</a> <span class="sep">·</span>
+        <a href="https://orcid.org/0009-0002-1994-686X">ORCID</a>
+      </p>
+    </div>
+    <img class="photo" src="files/profile_shifted.jpg" alt="Di Yan, PhD candidate in Financial Economics at the University of Groningen" data-alt-en="Di Yan, PhD candidate in Financial Economics at the University of Groningen" data-alt-zh="闫迪，格罗宁根大学金融经济学博士生" onerror="this.style.display='none'">
+  </header>
+
+  <ul class="highlights">
+    <li class="i18n-en">Revise &amp; Resubmit, <em>Journal of Corporate Finance</em></li>
+    <li class="i18n-zh" lang="zh">《Journal of Corporate Finance》修改再审</li>
+    <li class="i18n-en">Visiting PhD Researcher, Fudan University (FISF), Oct 2026 – Jan 2027</li>
+    <li class="i18n-zh" lang="zh">复旦大学（FISF）访问博士研究生，2026年10月–2027年1月</li>
+    <li class="i18n-en">Presented at EFMA, AFS, and IBEC (2025–2026)</li>
+    <li class="i18n-zh" lang="zh">曾在EFMA、AFS、IBEC等会议报告（2025–2026）</li>
+  </ul>
+  </div>
+</div>
+
+<div class="container">
+  <section id="profile">
+    <div class="section-number">01</div>
+    <h2 class="i18n-en">Profile</h2>
+    <h2 class="i18n-zh" lang="zh">个人简介</h2>
+    <p class="i18n-en">
+      I am a PhD candidate in Financial Economics at the Faculty of Economics and Business,
+      University of Groningen, supervised by Prof. Dr. Abe de Jong and Dr. Halit Gonenc. My
+      dissertation focuses on corporate finance, studying spillover effects that arise from
+      interactions among firms, drawing on evidence from both domestic Chinese and
+      international markets. From October 2026 to January 2027, I will be a visiting PhD
+      researcher at Fudan University (FISF).
+    </p>
+    <p class="i18n-zh" lang="zh">
+      我是格罗宁根大学经济与商学院金融经济学专业的博士生，导师为 Abe de Jong 教授和
+      Halit Gonenc 博士。我的博士论文聚焦于公司金融领域，研究企业间相互作用所产生的溢出效应，
+      研究证据同时来自中国国内市场与国际市场。2026年10月至2027年1月，我将作为访问博士研究生
+      赴复旦大学（FISF）交流学习。
+    </p>
+    <p class="i18n-en">
+      Before my PhD, I obtained a Master of Business and Economics from KU Leuven (Belgium) and a
+      Bachelor of Science in Business Administration from Murray State University (USA).
+    </p>
+    <p class="i18n-zh" lang="zh">
+      在攻读博士学位之前，我在比利时鲁汶大学（KU Leuven）获得商业经济学硕士学位，并在美国
+      默里州立大学（Murray State University）获得工商管理学士学位。
+    </p>
+  </section>
+
+  <section id="research">
+    <div class="section-number">02</div>
+    <h2 class="i18n-en">Research</h2>
+    <h2 class="i18n-zh" lang="zh">研究</h2>
+    <div class="item">
+      <p class="title i18n-en">State-owned Enterprises Spillover under Imperfect Competition</p>
+      <p class="title i18n-zh" lang="zh">不平等竞争下国有企业的溢出效应</p>
+      <p class="meta i18n-en">with Abe de Jong and Halit Gonenc</p>
+      <p class="meta i18n-zh" lang="zh">合著者：Abe de Jong、Halit Gonenc</p>
+      <p class="note i18n-en">Revise &amp; Resubmit, <em>Journal of Corporate Finance</em>. Presented at EFMA (2025), AFS (2025), and IBEC (2026).</p>
+      <p class="note i18n-zh" lang="zh">《Journal of Corporate Finance》修改再审。曾在EFMA（2025）、AFS（2025）、IBEC（2026）上报告。</p>
+      <p class="abstract-label i18n-en">Abstract</p>
+      <p class="abstract-label i18n-zh" lang="zh">摘要</p>
+      <p class="abstract i18n-en">
+        State intervention provides firms with competitive advantages, which suppresses rival
+        investment. Although prior research documents crowding-out effects under stable
+        conditions, little is known about how competitive spillovers respond to institutional
+        change. We study such a change using China's 2016 supply-side structural reform. This
+        reform provides quasi-experimental variation in exposure to shifts in state-owned
+        enterprises' (SOEs') expansion capacity. We use cross-industry differences in
+        pre-reform SOE prevalence as a measure of exposure and implement a
+        difference-in-differences design to identify the causal effect of reform-induced
+        changes in competitive conditions on investment of privately owned enterprises (POEs).
+        After the reform, we find a divergent trend in the relative capital expenditure levels
+        of POEs across industries with high versus low SOE prevalence. We show that these
+        effects are driven by changes in competitive pressure from SOEs rather than changes in
+        financing channels. These spillover effects are also more pronounced for POEs that are
+        not politically connected.
+      </p>
+      <p class="abstract i18n-zh" lang="zh">
+        政府干预为企业提供了竞争优势，从而抑制了竞争对手的投资。尽管已有研究记录了稳定环境下的
+        挤出效应，但竞争性溢出效应如何应对制度变迁却鲜有研究。本文利用中国2016年供给侧结构性改革
+        这一制度变迁进行研究，该项改革为国有企业扩张能力的变化提供了准实验性的外生变异。我们以
+        改革前各行业国有企业占比的差异作为暴露程度的衡量指标，采用双重差分法识别改革所引致的竞争
+        环境变化对民营企业（POEs）投资的因果效应。改革后，我们发现国有企业占比高与占比低的行业中，
+        民营企业相对资本支出水平出现了分化趋势。研究表明，这些效应主要源于国有企业带来的竞争压力
+        变化，而非融资渠道的变化。此外，这种溢出效应在不具有政治关联的民营企业中更为显著。
+      </p>
+    </div>
+    <div class="item">
+      <p class="title i18n-en">Spillover Effects from Peers in Local Markets and International Acquisitions: Evidence from China</p>
+      <p class="title i18n-zh" lang="zh">本地市场同业溢出效应与跨国并购：来自中国的证据</p>
+      <p class="meta i18n-en">Working paper</p>
+      <p class="meta i18n-zh" lang="zh">工作论文</p>
+      <p class="note i18n-en">Presented at the EFMA Doctoral Session (2026).</p>
+      <p class="note i18n-zh" lang="zh">曾在EFMA博士生分会（2026）上报告。</p>
+    </div>
+    <div class="item">
+      <p class="title i18n-en">How Firms' Pre-Covid Characteristics Affect Trade Credit Usage During the Covid-19 Crisis</p>
+      <p class="title i18n-zh" lang="zh">企业疫情前特征如何影响新冠疫情期间的商业信用使用</p>
+      <p class="meta i18n-en">Research project with Prof. Dr. Hans Degryse, KU Leuven (2021–2022)</p>
+      <p class="meta i18n-zh" lang="zh">与鲁汶大学 Hans Degryse 教授合作的研究项目（2021–2022）</p>
+    </div>
+  </section>
+
+  <section id="presentations">
+    <div class="section-number">03</div>
+    <h2 class="i18n-en">Selected Presentations</h2>
+    <h2 class="i18n-zh" lang="zh">精选学术报告</h2>
+    <ul class="pres-list">
+      <li>
+        <span class="pres-name i18n-en">European Financial Management Association, 35th Annual Conference (Doctoral Session)</span>
+        <span class="pres-name i18n-zh" lang="zh">European Financial Management Association 第35届年会（博士生分会）</span>
+        <span class="pres-meta i18n-en">Kristiansand, Norway · June 2026</span>
+        <span class="pres-meta i18n-zh" lang="zh">挪威 克里斯蒂安桑 · 2026年6月</span>
+      </li>
+      <li>
+        <span class="pres-name i18n-en">International Business and Economy Conference, 24th Annual Conference</span>
+        <span class="pres-name i18n-zh" lang="zh">International Business and Economy Conference 第24届年会</span>
+        <span class="pres-meta i18n-en">Suzhou, China · January 2026</span>
+        <span class="pres-meta i18n-zh" lang="zh">中国 苏州 · 2026年1月</span>
+      </li>
+      <li>
+        <span class="pres-name i18n-en">Corporate Finance Day, 22nd Annual Conference</span>
+        <span class="pres-name i18n-zh" lang="zh">Corporate Finance Day 第22届年会</span>
+        <span class="pres-meta i18n-en">Groningen, Netherlands · September 2025</span>
+        <span class="pres-meta i18n-zh" lang="zh">荷兰 格罗宁根 · 2025年9月</span>
+      </li>
+      <li>
+        <span class="pres-name i18n-en">European Financial Management Association, 34th Annual Conference</span>
+        <span class="pres-name i18n-zh" lang="zh">European Financial Management Association 第34届年会</span>
+        <span class="pres-meta i18n-en">Athens, Greece · July 2025</span>
+        <span class="pres-meta i18n-zh" lang="zh">希腊 雅典 · 2025年7月</span>
+      </li>
+      <li>
+        <span class="pres-name i18n-en">University of Groningen FEB PhD Conference</span>
+        <span class="pres-name i18n-zh" lang="zh">格罗宁根大学经济与商学院博士生学术会议</span>
+        <span class="pres-meta i18n-en">Groningen, Netherlands · 2024–2026</span>
+        <span class="pres-meta i18n-zh" lang="zh">荷兰 格罗宁根 · 2024–2026年</span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="service">
+    <div class="section-number">04</div>
+    <h2 class="i18n-en">Academic Service</h2>
+    <h2 class="i18n-zh" lang="zh">学术服务</h2>
+    <p class="i18n-en">Ad hoc reviewer (with Prof. Dr. Abe de Jong and Dr. Halit Gonenc) for:</p>
+    <p class="i18n-zh" lang="zh">曾与 Abe de Jong 教授、Halit Gonenc 博士共同担任以下期刊的匿名审稿人：</p>
+    <ul class="plain" style="margin-top: 0.6rem;">
+      <li><em>Journal of Corporate Finance</em></li>
+      <li><em>Journal of International Financial Markets, Institutions and Money</em></li>
+      <li><em>Journal of International Money and Finance</em></li>
+    </ul>
+  </section>
+
+  <section id="cv">
+    <div class="section-number">05</div>
+    <h2 class="i18n-en">Curriculum Vitae</h2>
+    <h2 class="i18n-zh" lang="zh">简历</h2>
+    <p class="i18n-en">A full CV is available <a href="files/CV_Di_Yan.pdf">here (PDF)</a>.</p>
+    <p class="i18n-zh" lang="zh">完整简历可点击<a href="files/CV_Di_Yan.pdf">此处（PDF）</a>查看。</p>
+  </section>
+
+  <section id="contact">
+    <div class="section-number">06</div>
+    <h2 class="i18n-en">Contact</h2>
+    <h2 class="i18n-zh" lang="zh">联系方式</h2>
+    <p class="contact-line"><span class="i18n-en">Email: </span><span class="i18n-zh" lang="zh">邮箱：</span><a href="mailto:d.yan@rug.nl">d.yan@rug.nl</a></p>
+    <p class="contact-line"><span class="i18n-en">WeChat: </span><span class="i18n-zh" lang="zh">微信：</span>dyanracer</p>
+    <p class="contact-line i18n-en">
+      Faculty of Economics and Business, University of Groningen<br>
+      Groningen, the Netherlands
+    </p>
+    <p class="contact-line i18n-zh" lang="zh">
+      荷兰格罗宁根大学经济与商学院<br>
+      荷兰 格罗宁根
+    </p>
+    <p class="contact-links">
+      <a href="https://www.linkedin.com/in/di-yan-927536227/">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=q5QaHA8AAAAJ&hl=en&oi=ao">Google Scholar</a>
+      <a href="https://orcid.org/0009-0002-1994-686X">ORCID</a>
+    </p>
+  </section>
+
+  <footer>
+    <p class="i18n-en">© 2026 Di Yan · Groningen, the Netherlands · Last updated July 2026</p>
+    <p class="i18n-zh" lang="zh">© 2026 闫迪 · 荷兰 格罗宁根 · 最后更新于2026年7月</p>
+  </footer>
+</div>
+<script>
+(function () {
+  var root = document.documentElement;
+  var photo = document.querySelector('img.photo');
+
+  function applyLang(lang) {
+    if (lang === 'zh') {
+      root.setAttribute('data-lang', 'zh');
+      root.setAttribute('lang', 'zh');
+    } else {
+      root.removeAttribute('data-lang');
+      root.setAttribute('lang', 'en');
+    }
+    if (photo) {
+      var alt = lang === 'zh' ? photo.getAttribute('data-alt-zh') : photo.getAttribute('data-alt-en');
+      if (alt) photo.setAttribute('alt', alt);
+    }
+    var buttons = document.querySelectorAll('.lang-btn');
+    for (var i = 0; i < buttons.length; i++) {
+      var btn = buttons[i];
+      var isActive = btn.getAttribute('data-lang-btn') === lang;
+      btn.classList.toggle('active', isActive);
+      btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    }
+    try { localStorage.setItem('site-lang', lang); } catch (e) {}
+  }
+
+  var initial = root.getAttribute('data-lang') === 'zh' ? 'zh' : 'en';
+  applyLang(initial);
+
+  var buttons = document.querySelectorAll('.lang-btn');
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function () {
+      applyLang(this.getAttribute('data-lang-btn'));
+    });
+  }
+})();
+</script>
+</body>
+</html>
